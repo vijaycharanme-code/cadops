@@ -1,0 +1,21 @@
+{
+  "name": "Aluminum Mounting Bracket Demo",
+  "version": "1.0.0",
+  "description": "Parametric bracket with FEA baseline and revised dimensions.",
+  "parameters": {
+    "length": 60,
+    "width": 30,
+    "height": 50,
+    "thickness": 6,
+    "hole_radius": 4
+  },
+  "material": {
+    "name": "Aluminum 6061-T6",
+    "youngs_modulus": 70000,
+    "poissons_ratio": 0.33,
+    "yield_strength": 276
+  },
+  "load": {
+    "force_z": -100
+  }
+}
